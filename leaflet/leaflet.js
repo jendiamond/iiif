@@ -7,7 +7,7 @@ map = L.map('map', {
 });
 
 // use this method for two requests of the same image with different parameters
-var iiifUrl = 'hhttp://iiif.io/api/image/2/context.json","@id":"http://iiif-kirschbombe.c9users.io/iiif/2/kabuki%2Fucla_bib1987273_no001_rs_001.jpg';
+var iiifUrl = 'http://iiif-kirschbombe.c9users.io/iiif/2/kabuki%2Fucla_bib1987273_no001_rs_001.jpg';
 
 var layer1 = L.tileLayer.iiif(iiifUrl, {
     fitBounds: false,
